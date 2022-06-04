@@ -69,6 +69,7 @@ footer{
     height: 20vh;
     background-color: #2b2929;
     margin-top: 55px;
+    border-top: #ffffff solid 1px;
 }
 .logo-reseaux{
     margin: 5px;
