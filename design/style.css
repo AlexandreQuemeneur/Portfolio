@@ -9,11 +9,22 @@ body{
     color:white;
     height: 100vh;
     background-image: repeating-linear-gradient(135deg, rgba(206, 202, 202, 0.1) 0px, rgba(93,93,93, 0.1)
-     2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(24, 21, 21),rgb(32, 30, 30));
+     2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(58, 57, 57),rgb(22, 21, 21));
 }
+
 h1{
     font-family: 'gingerregular';
     font-size: 50px;
+    padding: 30px 0px;
+}
+#app{
+    font-size: 30px;
+    padding: 10px;
+}
+nav > p {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: #ffffff 1px  0 3px;
 }
 nav{
     letter-spacing: 2px;
@@ -21,8 +32,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: rgb(34, 31, 31);
-    height: 15em;
+    height: 17em;
     box-shadow: 0px 9px 10px -1px #4d4b4b;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
