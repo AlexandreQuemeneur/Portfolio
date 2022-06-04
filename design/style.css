@@ -41,6 +41,15 @@ header{
     border-bottom-right-radius: 10px;
     margin-bottom: 20px;
 }
+/* chngement des couleurs typo et éléments important */
+.switchedcolor{
+    color: greenyellow;
+}
+/* Modification de ma présentation */
+.presentation{
+    background-color: #4d4b4b75;
+    padding: 10px 5px;
+}
 /* modification mes projets */
 .jojo{
     width: 220px;
