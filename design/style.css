@@ -8,8 +8,11 @@
 body{
     color:white;
     height: 100vh;
-    background-image: repeating-linear-gradient(135deg, rgba(206, 202, 202, 0.1) 0px, rgba(93,93,93, 0.1)
-     2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(58, 57, 57),rgb(22, 21, 21));
+    background: rgb(40, 40, 43);
+    margin-left: 5%;
+    margin-right: 5%;
+    /* background-image: repeating-linear-gradient(135deg, rgba(206, 202, 202, 0.1) 0px, rgba(93,93,93, 0.1)
+     2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(58, 57, 57),rgb(22, 21, 21)); */
 }
 /* modification header */
 h1{
@@ -34,12 +37,10 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(34, 31, 31);
+    background-color: rgb(40, 40, 43);
     height: 17em;
-    box-shadow: 0px 9px 10px -1px #4d4b4b;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     margin-bottom: 20px;
+    border-bottom: #ffffff solid 1px;
 }
 /* chngement des couleurs typo et éléments important */
 .switchedcolor{
@@ -47,8 +48,13 @@ header{
 }
 /* Modification de ma présentation */
 .presentation{
-    background-color: #4d4b4b75;
     padding: 10px 5px;
+    height: 50vh;
+    margin-bottom: 10px;
+}
+.presentation > p{
+    margin-bottom: 2px;
+    font-size: 20px;
 }
 /* modification mes projets */
 .jojo{
