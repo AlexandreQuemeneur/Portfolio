@@ -21,12 +21,12 @@ h1{
     font-size: 30px;
     padding: 10px;
 }
-nav > p {
+header > p {
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-shadow: #ffffff 1px  0 3px;
 }
-nav{
+header{
     letter-spacing: 2px;
     color: white;
     display: flex;
