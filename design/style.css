@@ -57,6 +57,9 @@ header{
     font-size: 20px;
 }
 /* modification mes projets */
+#projets{
+    height: 50vh;
+}
 .jojo{
     width: 220px;
     height:280px;
@@ -65,13 +68,16 @@ header{
 footer{
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     height: 20vh;
-    background-color: #2b2929;
     margin-top: 55px;
     border-top: #ffffff solid 1px;
 }
 .logo-reseaux{
     margin: 5px;
     width: 40px;
+}
+.droits{
+    padding-top: 10px;
 }
