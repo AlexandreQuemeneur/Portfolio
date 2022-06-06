@@ -36,6 +36,27 @@ header{
     height: 17em;
     margin-bottom: 20px;
 }
+.pp{
+    display: flex;
+    justify-content: flex-end;
+}
+.profil{
+    width: 350px;
+    animation: rotation 40s infinite linear;
+    position: absolute;
+}
+.profil2{
+    width: 550px;
+    padding-left: 150px;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
 main{
     margin-left: 5%;
     margin-right: 5%;
