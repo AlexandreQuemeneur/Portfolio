@@ -6,9 +6,9 @@
     font-style: normal;
 }
 body{
-    color:white;
     height: 100vh;
-    background: rgb(2, 2, 2); 
+    margin-left: 15%;
+    border-left: 1px solid gray;
 }
 /* modification header */
 h1, h2{
@@ -16,6 +16,28 @@ h1, h2{
     font-size: 50px;
     padding: 30px 0px;
 }
+/* text défillant pour les h2 */
+.container {
+    overflow: hidden;
+    margin: none;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+    transform: translateY(-10%);
+    margin: none;
+}
+.txt{
+    white-space: nowrap;
+    font-size: 150px;
+    animation: scrollTxt 10s linear infinite;
+}
+@keyframes scrollTxt {
+    from   { transform: translateX(-0%); }
+    to { transform: translateX(-50%); }
+    
+  }
 #app{
     font-size: 30px;
     padding: 15px;
@@ -23,12 +45,11 @@ h1, h2{
 }
 header > p {
     font-size: 30px;
-    color: rgb(255, 255, 255);
-    text-shadow: #ffffff 1px  0 3px;
+    color: rgb(0, 0, 0);
 }
 header{
     letter-spacing: 2px;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,30 +57,8 @@ header{
     height: 17em;
     margin-bottom: 20px;
 }
-.pp{
-    display: flex;
-    justify-content: flex-end;
-}
-.profil{
-    width: 350px;
-    animation: rotation 40s infinite linear;
-    position: absolute;
-}
-.profil2{
-    width: 550px;
-    padding-left: 150px;
-}
-@keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-}
 main{
-    margin-left: 5%;
-    margin-right: 5%;
+    /* margin-left: 20px;    */
 }
 /* chngement des couleurs typo et éléments important */
 .switchedcolor{
@@ -86,6 +85,24 @@ main{
     width: 220px;
     height:280px;
 }
+/* modification compétences */
+.align-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0;
+}
+.reset-logo{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.cercle-logo{
+    width: 750px;
+}
 /* modification footer */
 footer{
     display: flex;
@@ -94,8 +111,8 @@ footer{
     justify-content: center;
     height: 20vh;
     margin-top: 55px;
-    border-top: #ffffff solid 1px;
 }
+
 .logo-reseaux{
     margin: 5px;
     width: 40px;
