@@ -11,12 +11,21 @@ body{
     border-left: 1px solid gray;
 }
 /* modification header */
+header{
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: 20px;
+    padding-top: 30px;
+    height: 10em;
+    margin-bottom: 20px;
+    
+}
 h1 {
     font-family: 'gingerregular';
-    font-size: 50px;
+    font-size: 70px;
     padding: 30px 0px;
 }
-
 /* text défillant pour les h2 */
 .container {
     overflow: hidden;
@@ -59,7 +68,7 @@ h1 {
         transform: translate(0%, 0);
       }
       100% {
-        transform: translate(100%, 0);
+        transform: translate(99%, 0);
       }
   }
   @keyframes scrollTxt2 {
@@ -75,47 +84,40 @@ h1 {
     padding: 15px;
     font-weight: bold;
 }
-header > p {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-}
-header{
-    letter-spacing: 2px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 17em;
-    margin-bottom: 20px;
-}
-main{
-    /* margin-left: 20px;    */
-}
 /* chngement des couleurs typo et éléments important */
 .switchedcolor{
     color: greenyellow;
 }
 /* Modification de ma présentation */
 .presentation{
-    padding: 10px 5px;
-    height: 50vh;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    border-top: #ffffff solid 1px;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
 }
-.presentation > p{
-    margin-top: 10px;
-    margin-bottom: 2px;
-    font-size: 20px;
+.bloc-presentation{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 5px 0px #7A7A7A;
 }
 /* modification mes projets */
 #projets{
     height: 50vh;
+    background-image: url(../media/font-header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: -16px;
 }
+
 .jojo{
     width: 220px;
     height:280px;
+    /* display: none; */
 }
 /* modification compétences */
 .align-logo{
@@ -143,7 +145,6 @@ footer{
     height: 20vh;
     margin-top: 55px;
 }
-
 .logo-reseaux{
     margin: 5px;
     width: 40px;
