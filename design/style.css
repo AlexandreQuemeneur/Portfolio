@@ -11,11 +11,12 @@ body{
     border-left: 1px solid gray;
 }
 /* modification header */
-h1, h2{
+h1 {
     font-family: 'gingerregular';
     font-size: 50px;
     padding: 30px 0px;
 }
+
 /* text défillant pour les h2 */
 .container {
     overflow: hidden;
@@ -28,15 +29,46 @@ h1, h2{
     transform: translateY(-10%);
     margin: none;
 }
+.container2{
+    overflow: hidden;
+    margin: none;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 100%;
+    transform: translateY(-10%);
+    margin: none;
+}
 .txt{
+    font-family: 'gingerregular';
+    padding: 7px 0;
     white-space: nowrap;
     font-size: 150px;
-    animation: scrollTxt 10s linear infinite;
+    animation: scrollTxt 7s linear infinite;
+}
+.txt2{
+    font-family: 'gingerregular';
+    padding: 7px 0;
+    white-space: nowrap;
+    font-size: 150px;
+    animation: scrollTxt2 20s linear infinite;
 }
 @keyframes scrollTxt {
-    from   { transform: translateX(-0%); }
-    to { transform: translateX(-50%); }
-    
+    0%{
+        transform: translate(0%, 0);
+      }
+      100% {
+        transform: translate(100%, 0);
+      }
+  }
+  @keyframes scrollTxt2 {
+    0%{
+        transform: translate(200%, 0);
+      }
+      100% {
+        transform: translate(0%, 0);
+      }
   }
 #app{
     font-size: 30px;
@@ -97,7 +129,6 @@ main{
     margin-left: 10px;
     width: 50px;
     height: 50px;
-    
 }
 
 .cercle-logo{
