@@ -7,7 +7,6 @@
 }
 body{   
     height: 100vh;
-    /* margin-left: 15%; */
     border-left: 1px solid gray;
 }
 /* modification header */
@@ -25,6 +24,9 @@ h1 {
     font-size: 70px;
     padding-top: 50px;
     margin-left: 4vh;
+}
+.tete{
+    display: flex;
 }
 .background-presentation{
     background-image: url();
@@ -55,9 +57,30 @@ h1 {
     transform: translateY(-10%);
     margin: none;
 }
-.rond{
-    transform: matrix3d(20px);
-}
+/* Text rond qui tourne */
+svg {
+    fill: currentColor;
+    height: auto;
+    max-width: 77vmin;
+    transform-origin: center;
+    width: 77%;
+  }
+  
+  .test {
+    width: 70px;
+    margin-left: 5px;
+      -webkit-animation: rotating 18s linear infinite;
+  }
+  @-webkit-keyframes rotating {
+      from{
+          -webkit-transform: rotate(0deg);
+      }
+      to{
+          -webkit-transform: rotate(360deg);
+      }
+  }
+   
+  
 .txt{
     font-family: 'gingerregular';
     padding: 7px 0;
