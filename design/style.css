@@ -5,9 +5,9 @@
     font-weight: normal;
     font-style: normal;
 }
-body{
+body{   
     height: 100vh;
-    margin-left: 15%;
+    /* margin-left: 15%; */
     border-left: 1px solid gray;
 }
 /* modification header */
@@ -38,8 +38,8 @@ h1 {
     margin: none;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(57, 55, 55);
+    border-top: 1px solid rgb(57, 55, 55);
     width: 100%;
     transform: translateY(-10%);
     margin: none;
@@ -49,11 +49,14 @@ h1 {
     margin: none;
     display: flex;
     justify-content: flex-end;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(57, 55, 55);
+    border-top: 1px solid rgb(57, 55, 55);
     width: 100%;
     transform: translateY(-10%);
     margin: none;
+}
+.rond{
+    transform: matrix3d(20px);
 }
 .txt{
     font-family: 'gingerregular';
@@ -61,12 +64,14 @@ h1 {
     white-space: nowrap;
     font-size: 150px;
     animation: scrollTxt 7s linear infinite;
+    color: rgb(57, 55, 55);
 }
 .txt2{
     font-family: 'gingerregular';
     padding: 7px 0;
     white-space: nowrap;
     font-size: 150px;
+    color: rgb(57, 55, 55);
     animation: scrollTxt2 20s linear infinite;
 }
 @keyframes scrollTxt {
@@ -79,10 +84,10 @@ h1 {
   }
   @keyframes scrollTxt2 {
     0%{
-        transform: translate(200%, 0);
+        transform: translate(201%, 0);
       }
       100% {
-        transform: translate(0%, 0);
+        transform: translate(1%, 0);
       }
   }
 #app{
