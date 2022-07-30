@@ -69,6 +69,7 @@ svg {
   .test {
     width: 70px;
     margin-left: 5px;
+    margin-top: -10px;
       -webkit-animation: rotating 18s linear infinite;
   }
   @-webkit-keyframes rotating {
@@ -118,7 +119,7 @@ svg {
     padding: 15px;
     font-weight: bold;
 }
-/* chngement des couleurs typo et éléments important */
+/* changement des couleurs typo et éléments important */
 .switchedcolor{
     color: greenyellow;
 }
@@ -137,7 +138,7 @@ svg {
 }
 /* modification mes projets */
 #projets{
-    height: 50vh;
+    height: 80vh;
     background-image: url(../media/font-header.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -178,6 +179,16 @@ footer{
     justify-content: center;
     height: 20vh;
     margin-top: 55px;
+}
+.objetcomp{
+    padding: 10px;
+    width: 20%;
+    box-shadow: -13px 16px 50px -35px #D468E2, 
+    22px -20px 51px -42px #629BC4;
+    border-radius: 15px;
+}
+.objetcomp, h4{
+    margin-bottom: 7px;
 }
 .logo-reseaux{
     margin: 5px;
